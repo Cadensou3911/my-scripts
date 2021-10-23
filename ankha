@@ -1,0 +1,48 @@
+-- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 9*60 + 25 -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = nil -- tempo overides the delay
+
+shared.scr = [[
+ e       r       T    T       e       r    T       T 
+   e       r       T    T       e       r    T       e 
+      r    T       y       T       E    e  [9qwe]    e 
+      r       T    T       e       r    T       T    e 
+      r       T   [Te]       e       e    [er]       T       e 
+   [er]    [Te]       y    [Te]    [Ee]       e       e    [26] 
+   [27]       8       8    [26]    [27]       8       9       8 
+      7       8       6       2       2       6    [27]       8 
+   [29]    [29]       8       7       8       6       7       5 
+      6    [26]    [27]       8       8    [26]    [27]       8 
+      9       8       7       8       6       2       2       6 
+   [27]       8    [29]    [29]       8       7       8    [16] 
+      7    [!5]       6    [26]    [27]       8       8    [26] 
+   [27]       8       9       8       7       8       6       2 
+      2       6    [27]       8    [29]    [29]       8       7 
+      8       6       7       5       6    [26]    [27]       8 
+      8    [26]    [27]       8       9       8       7       8 
+      6       2       2       6    [27]       8    [29]    [29] 
+      8       7       8    [16]       7    [!5]       6       6 
+      6       6       6       6       4       4       4       4 
+      4   [58s]    [8s]   [59d]   [5qg]       5    [0f]   [59d] 
+   [29]       9    [29]       4       4       5       6       6 
+      6       6       6       4       4       4       4       4 
+  [58s]    [8s]   [59d]   [5qg]       5    [0f]   [59d]       2 
+   [wh]    [2w]    [4w]       4   [26e]   [27r]    [8t]    [8t] 
+  [26e]   [27r]    [8t]    [9y]    [8t]    [7r]    [8t]    [6e] 
+      2       2    [6e]   [27r]    [8t]   [29y]   [29y]    [8t] 
+   [7r]    [8t]    [6e]    [7r]    [5w]    [6e]   [26e]   [27r] 
+   [8t]    [8t]   [26e]   [27r]    [8t]    [9y]    [8t]    [7r] 
+   [8t]    [6e]       2       2    [6e]   [27r]    [8t]   [29y] 
+  [29y]    [8t]    [7r]    [8t]   [16e]    [7r]   [!5w]    [6e] 
+      2       2    [69]    [69]    [69]    [69]       2       2 
+   0    0    0    0    [59]    [59]    [59]    [59] 
+   [69]    [69]    [69]    [69]       0       0       0       0 
+      9       9       9       9       9       9       9       9 
+      8       8       8       8       2       2    [69]    [69] 
+   [69]    [69]       2       2    0    0    0    0 
+   [59]    [59]    [59]    [59]    [69]    [69]    [69]    [69]
+]]
