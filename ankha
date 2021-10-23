@@ -7,6 +7,8 @@ shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
 shared.scr = [[
+Transpose 2
+
  e       r       T    T       e       r    T       T 
    e       r       T    T       e       r    T       e 
       r    T       y       T       E    e  [9qwe]    e 
