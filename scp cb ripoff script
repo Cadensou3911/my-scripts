@@ -1,0 +1,35 @@
+local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wall%20v3')))()
+
+local w = library:CreateWindow("scp cb ripoff hub") -- Creates the window
+
+local b = w:CreateFolder("ngl pretty useless") -- Creates the folder(U will put here your buttons,etc)
+
+b:Label("turn off room lod or it wont work",{
+    TextSize = 16; -- Self Explaining
+    TextColor = Color3.fromRGB(255,255,255); -- Self Explaining
+    BgColor = Color3.fromRGB(69,69,69); -- Self Explaining
+    
+}) 
+
+b:Label("the scripts are made by Sevyy ui by wally made into a gui by me",{
+    TextSize = 14; -- Self Explaining
+    TextColor = Color3.fromRGB(255,255,255); -- Self Explaining
+    BgColor = Color3.fromRGB(69,69,69); -- Self Explaining
+    
+}) 
+
+b:Button("Teleport to SCP-914",function()
+    local SCP914 = game:GetService("Workspace").Rooms.room914.room914STATIC.Wedge
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = SCP914.CFrame
+end)
+
+b:Button("Teleport to Gate A",function()
+    local GateA = game:GetService("Workspace").Rooms.gatea.Base
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = GateA.CFrame
+end)
+
+b:Button("Get Level 5 keycard",function()
+    local Level5Keycard1 = game:GetService("Workspace").ItemSpawns.Specific.Keycard5
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = Level5Keycard1.CFrame
+end)
+
